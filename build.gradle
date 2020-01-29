@@ -28,7 +28,8 @@ allprojects {
 
 android {
     compileSdkVersion safeExtGet('compileSdkVersion', 26)
-    buildToolsVersion safeExtGet('buildToolsVersion', '28.0.3')
+    buildToolsVersion safeExtGet('buildToolsVersion', '26.0.2')
+
 
     defaultConfig {
         consumerProguardFiles 'proguard-rules.pro'
